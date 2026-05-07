@@ -1,9 +1,9 @@
 # Velvet-Screen
 
-# AUTHOR
+# Author
 @stephie667
 
-# DESCRIPTION
+# Description
 The Velvet screen is a classy movie platform designed to let people discover popular flicks and explore details about them in an elegant interface.
 
 # live url
