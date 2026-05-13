@@ -59,8 +59,9 @@ ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-image: url('https: //images.unsplash.com/photo-1581250505440-d813cad691a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGltYWdlcyUyMGZvciUyMG1vdmllJTIwYXBwc3xlbnwwfHwwfHx8MA%3D%3D');
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -92,7 +93,7 @@ ul li a:hover {
 
 #about {
     background-size: cover;
-    background-color: #1a1a1a;
+    background-color: #0e0d0d;
     text-align: center;
     flex-direction: column;
     height: 100vh;
@@ -135,13 +136,14 @@ ul li a:hover {
     background-color: #1a1a1a;
     text-align: center;
     flex-direction: column;
-    height: 100vh;
+    height: 85vh;
     justify-content: center;
     text-align: center;
+
 }
 
 .sign-container {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
     padding: 150px;
     background-color: #000000;
@@ -155,4 +157,29 @@ ul li a:hover {
     color: #ffffff;
 }
 
+.sign-container p {
+    font-size: 23px;
+    line-height: 1.6;
+    color: #e6e3e3;
+    margin-bottom: 15px;
+}
+
+.sign-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-container form input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form-id {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
