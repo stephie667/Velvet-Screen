@@ -117,3 +117,15 @@ ul li a:hover {
     line-height: 1.6;
     color: #e6e3e3;
 }
+
+#explore {
+    background-size: cover;
+    background-color: #3a3939;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+
