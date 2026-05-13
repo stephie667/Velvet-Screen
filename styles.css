@@ -47,6 +47,7 @@ ul li a {
     padding: 8px 12px;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: rgb(58, 39, 39);
 }
 ul li a:hover {
     background-color: #b8b5b5;
@@ -59,7 +60,7 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('https: //images.pexels.com/photos/23384428/pexels-photo-23384428.jpeg');
+    background-image: url('https: //media.istockphoto.com/id/1465367536/photo/action-movie-concept-police-cars-and-miniature-movie-set-on-dark-toned-background-with-fog.webp?a=1&b=1&s=612x612&w=0&k=20&c=lTNauPD28FPQltwEXbbMXvCrz0ekXw7s7G4R-IcbZ00=');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -71,4 +72,42 @@ ul li a:hover {
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+#home-signup {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4d0303;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#home-signup:hover {
+    background-color: #b8b5b5;
+    color: #000000;
+}
+
+#about {
+    background-size: cover;
+    background-color: #1a1a1a;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.about-container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
