@@ -60,7 +60,7 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('https: //media.istockphoto.com/id/1465367536/photo/action-movie-concept-police-cars-and-miniature-movie-set-on-dark-toned-background-with-fog.webp?a=1&b=1&s=612x612&w=0&k=20&c=lTNauPD28FPQltwEXbbMXvCrz0ekXw7s7G4R-IcbZ00=');
+    background-image: url('https: //images.unsplash.com/photo-1581250505440-d813cad691a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGltYWdlcyUyMGZvciUyMG1vdmllJTIwYXBwc3xlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -126,6 +126,33 @@ ul li a:hover {
     height: 100vh;
     justify-content: center;
     text-align: center;
+}
+
+
+
+#sign-up {
+    background-size: cover;
+    background-color: #1a1a1a;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 150px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sign-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
 
