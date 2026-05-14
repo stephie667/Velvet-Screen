@@ -5,4 +5,9 @@ function filterMovies() {
     //  Get all the movie cards
     let cards = document.getElementsByClassName('explore-card');
 
-   
+    // Loop through every card to check the title
+    for (let i = 0; i < cards.length; i++) {
+        // Find the <h3> tag inside the current card
+        let titleTag = cards[i].querySelector('h3');
+
+      
