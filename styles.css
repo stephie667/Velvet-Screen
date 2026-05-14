@@ -148,7 +148,7 @@ ul li a:hover {
     background-color: #3a3939;
     text-align: center;
     flex-direction: column;
-    height: 190vh;
+    height: 170vh;
     justify-content: center;
     text-align: center;
 }
@@ -187,7 +187,50 @@ ul li a:hover {
     background-color: #f9f9f9;
 }
 
+#movieContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    background-color: #141414;
+}
 
+.explore-card {
+    background-color: #2f2f2f;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.explore-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.explore-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.explore-card h3 {
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.explore-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.explore-card:hover h3 {
+    color: #e50914;
+}
 
 
 #sign-up {
