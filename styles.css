@@ -299,3 +299,18 @@ ul li a:hover {
     color: #000000;
 }
 
+.submit-btn {
+    width: 50%;
+    background-color: #6b2327;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-left: 150px;
+}
