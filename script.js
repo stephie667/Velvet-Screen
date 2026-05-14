@@ -22,3 +22,9 @@ function filterMovies() {
         }
     }
 }
+
+function handleSignUp() {
+    const signUpForm = document.getElementById('form-id');
+    const container = document.querySelector('.sign-container');
+
+  
