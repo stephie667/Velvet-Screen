@@ -284,4 +284,17 @@ ul li a:hover {
     flex-direction: column;
     gap: 15px;
 }
-
+#form-id input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d0303;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#form-id input:hover {
+    background-color: #b8b5b5;
+    color: #000000;
+}
