@@ -27,4 +27,8 @@ function handleSignUp() {
     const signUpForm = document.getElementById('form-id');
     const container = document.querySelector('.sign-container');
 
-  
+    signUpForm.addEventListener('submit', function (event) {
+        // 1. Prevent the page from reloading
+        event.preventDefault();
+
+     
