@@ -16,5 +16,13 @@ Here is my live url( https://stephie667.github.io/Velvet-Screen)
                  it's correctly filled.
 4) Display sections of the movies available.
 
+# Technologies Used
+1) Html
+2) css
+3) JavaScript
+
+# license
+Used MIT license
+
 # COPY RIGHTS
 © 2026 Velvet Screen. All rights reserved.
