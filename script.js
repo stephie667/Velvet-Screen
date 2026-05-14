@@ -31,4 +31,16 @@ function handleSignUp() {
         // 1. Prevent the page from reloading
         event.preventDefault();
 
-     
+        // 2. Clear the internal HTML of the container
+        // This removes the form and the heading
+        container.innerHTML = `
+    <div class="success-message">
+        <h2>Welcome aboard!</h2>
+        <p>You are now logged in.</p>
+    </div>
+    `;
+    });
+}
+
+// Call the function to set up the event listener when the page loads
+document.addEventListener('DOMContentLoaded', handleSignUp);
