@@ -7,7 +7,7 @@
 The Velvet screen is a classy movie platform designed to let people discover popular flicks and explore details about them in an elegant interface.
 
 # live url
-Here is my live url( https://stephie667.github.io/Velvet-Screen)
+Here is my live url( https://stephie667.github.io/Velvet-Screen/)
  
 # features
 1) Responsive layout: works out in all screen sizes.
