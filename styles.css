@@ -96,7 +96,7 @@ ul li a:hover {
     background-color: #0e0d0d;
     text-align: center;
     flex-direction: column;
-    height: 110vh;
+    height: 108vh;
     justify-content: center;
     text-align: center;
 }
@@ -108,7 +108,7 @@ ul li a:hover {
 }
 
 .about-container h2 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #ffffff;
     padding-bottom: 20px;
@@ -148,12 +148,66 @@ ul li a:hover {
     background-color: #3a3939;
     text-align: center;
     flex-direction: column;
-    height: 100vh;
+    height: 190vh;
     justify-content: center;
     text-align: center;
 }
 
+.explore-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
 
+.explore-container h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+
+#movieSearch {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    transition: all 0.3 ease;
+    background-color: #f9f9f9;
+}
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.explore-card {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.explore-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.explore-card:hover img {
+    transform: scale(1.1);
+}
 
 #sign-up {
     background-size: cover;
