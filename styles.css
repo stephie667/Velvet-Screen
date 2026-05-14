@@ -318,3 +318,8 @@ ul li a:hover {
     background-color: #b8b5b5;
     color: #000000;
 }
+
+/* responsive design */
+@media screen {
+    max-width:768px;
+}
