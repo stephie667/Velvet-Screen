@@ -10,4 +10,15 @@ function filterMovies() {
         // Find the <h3> tag inside the current card
         let titleTag = cards[i].querySelector('h3');
 
-      
+        if (titleTag) {
+            let titleText = titleTag.innerText.toLowerCase();
+
+            // If the title matches the input, show it. Otherwise, hide it.
+            if (titleText.includes(input)) {
+                cards[i].style.display = "";
+            } else {
+                cards[i].style.display = "none";
+            }
+        }
+    }
+}
